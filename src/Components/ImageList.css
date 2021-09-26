@@ -1,0 +1,18 @@
+.image_list{
+    position: relative;
+    display:flex;
+    flex-direction:row;
+    flex-flow: row wrap;
+    justify-items: center;
+    margin-top:3%;
+    justify-content: center; 
+    /* place-items: center; */
+}
+
+.image_list img{
+    position: relative;
+    padding: 10px 10px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
